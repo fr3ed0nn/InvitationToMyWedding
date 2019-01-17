@@ -9,3 +9,13 @@
 2. 需要自己申请微信小程序appid，并修改app.js里的appid；
 3. 欢迎捐赠
 
+#### 安装需求
+
+1. 微信小程序开发工具
+2. nodejs
+
+#### 备注
+
+1. 如何下载wx-server-sdk：
+在云函数的文件夹路径下，cmd运行
+`npm install --save wx-server-sdk@latest`
