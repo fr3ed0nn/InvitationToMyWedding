@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/photos/index",
+    "pages/map/index",
+    "pages/bless/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Wedding Invitation",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#ff4c91",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1-1.png",
+        "selectedIconPath": "images/1-2.png",
+        "text": "邀请函"
+      },
+      {
+        "pagePath": "pages/photos/index",
+        "iconPath": "images/2-1.png",
+        "selectedIconPath": "images/2-2.png",
+        "text": "婚纱相册"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "iconPath": "images/3-1.png",
+        "selectedIconPath": "images/3-2.png",
+        "text": "酒店导航"
+      },
+      {
+        "pagePath": "pages/bless/index",
+        "iconPath": "images/4-1.png",
+        "selectedIconPath": "images/4-2.png",
+        "text": "好友祝福"
+      }
+    ]
+  },
+  "cloud": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "导航功能需要授权地图功能"
+    }
+  }
+}
