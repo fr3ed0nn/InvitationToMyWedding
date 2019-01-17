@@ -16,6 +16,8 @@
 
 #### 备注
 
-1. 如何下载wx-server-sdk：
-在云函数的文件夹路径下，cmd运行
-`npm install --save wx-server-sdk@latest`
+1. 如何下载wx-server-sdk:
+
+  在云函数的文件夹路径下，cmd运行
+
+    npm install --save wx-server-sdk@latest
