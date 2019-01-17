@@ -1,0 +1,11 @@
+<!-- pages/photos/index.wxml -->
+
+<view class="container" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+  <view class="swiper">
+    <swiper indicator-dots="false" autoplay="true" vertical="true" interval="5000" duration="1000">
+      <swiper-item wx:for="{{slideList}}" wx:key="slide" wx:id="id" wx:if="{{item}}">
+        <image src="{{item}}" class="slide-image" mode="aspectFill" />
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
