@@ -1,0 +1,61 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"uglifyFileName": true
+	},
+	"cloud": true,
+	"compileType": "miniprogram",
+	"libVersion": "2.4.3",
+	"appid": "wx1234567890",
+	"projectname": "InvitationToMyWedding",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index"
+				},
+				{
+					"id": -1,
+					"name": "相册",
+					"pathName": "pages/photos/index"
+				},
+				{
+					"id": -1,
+					"name": "地图",
+					"pathName": "pages/map/index"
+				},
+				{
+					"id": -1,
+					"name": "祝福",
+					"pathName": "pages/bless/index"
+				}
+			]
+		}
+	}
+}
