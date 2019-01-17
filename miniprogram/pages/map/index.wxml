@@ -1,0 +1,26 @@
+<!-- pages/map/index.wxml -->
+
+<view class="container" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+  <image src='/images/t1.png' class='t1'></image>
+  <view class="map">
+    <map id="map" longitude="{{mainInfo.longitude}}" latitude="{{mainInfo.latitude}}" enable-scroll="false" scale="18" markers="{{markers}}" bindmarkertap="markertap" show-compass show-location></map>
+    <view class='notice'>点击图标可进导航</view>
+  </view>
+
+  <view class="tel">
+    <!--  <view class="tel_he" wx:if="{{mainInfo.he_tel}}">
+      <view class="call" bindtap="callhe">
+        <image src="/images/he.png" width="100%" />
+      </view>
+      呼叫新郎
+    </view>
+    <view class="tel_she" wx:if="{{mainInfo.she_tel}}">
+      <view class="call" bindtap="callshe">
+        <image src="/images/she.png" width="100%" />
+      </view>
+      呼叫新娘
+    </view>-->
+  </view>
+  <view class='copyright'>Made With ❤ By {{mainInfo.bridegroom}} & {{mainInfo.bride}}</view>
+  <view class='copyright'>Code By fr3ed0m</view>
+</view>
