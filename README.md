@@ -21,3 +21,5 @@
   在云函数的文件夹路径下，cmd运行
 
     npm install --save wx-server-sdk@latest
+
+#### 从gitee同步到github
